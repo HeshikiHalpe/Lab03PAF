@@ -14,8 +14,8 @@ public class Item {
 		Connection con = null;
 		
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/items","root", "heshikihalpe95");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/paf_labs","root", "heshikihalpe95");
 			
 			//for testing
 			//System.out.println("Successfully connected");
